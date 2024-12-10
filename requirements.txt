@@ -1,0 +1,20 @@
+llava @ git+https://github.com/jackyk02/LLaVA@3b0c8343aee4979810ab27f71593fe4fba3c1c48
+protobuf
+torch
+torchvision
+torchaudio
+deepspeed
+peft
+transformers
+bitsandbytes
+datasets
+wandb
+#accelerate==0.21.0
+#mkdir data_dir
+#mkdir model_dir
+#git lfs install
+# git clone https://huggingface.co/zhiqings/LLaVA-RLHF-7b-v1.5-224
+# git clone https://huggingface.co/datasets/zhiqings/LLaVA-RLHF-Data
+# git clone https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K
+# curl -L -o archive.zip https://www.kaggle.com/api/v1/datasets/download/awsaf49/coco-2017-dataset
+
